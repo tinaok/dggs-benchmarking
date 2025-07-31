@@ -19,7 +19,6 @@ isort = "*"
 ruff = "*"
 python = "3.12.*"
 jedi-language-server = "*"
-evcxr = "*"
 
 [environments]
 area = ["area"]
@@ -31,3 +30,4 @@ healpix-geo = "*"
 pandas = "*"
 matplotlib = "*"
 seaborn = "*"
+evcxr = "*"
