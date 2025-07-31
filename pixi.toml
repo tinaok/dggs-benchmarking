@@ -6,7 +6,7 @@ platforms = ["linux-64", "osx-arm64"]
 version = "0.1.0"
 
 [system-requirements]
-libc = {family = "glibc", version = "2.34"}
+libc = { family = "glibc", version = "2.34" }
 
 [tasks]
 
@@ -14,19 +14,20 @@ libc = {family = "glibc", version = "2.34"}
 jupyterlab = ">=4.4.5,<5"
 jupyter-resource-usage = ">=1.1.1,<2"
 jupyterlab_code_formatter = ">=3.0.2,<4"
-black = ">=25.1.0,<26"
-isort = ">=6.0.1,<7"
-ruff = ">=0.12.7,<0.13"
+black = "*"
+isort = "*"
+ruff = "*"
 python = "3.12.*"
+jedi-language-server = "*"
+evcxr = "*"
 
 [environments]
 area = ["area"]
 
 [pypi-dependencies]
-healpix-geo = ">=0.0.5, <0.0.6"
+healpix-geo = "*"
 
 [feature.area.dependencies]
-evcxr = "*"
 pandas = "*"
 matplotlib = "*"
 seaborn = "*"
