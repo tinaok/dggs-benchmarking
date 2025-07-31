@@ -21,12 +21,12 @@ python = "3.12.*"
 jedi-language-server = "*"
 
 [environments]
-area = ["area"]
+ellipsoidal-healpix = ["ellipsoidal-healpix"]
 
 [pypi-dependencies]
 healpix-geo = "*"
 
-[feature.area.dependencies]
+[feature.ellipsoidal-healpix.dependencies]
 pandas = "*"
 matplotlib = "*"
 seaborn = "*"
