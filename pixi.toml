@@ -20,7 +20,13 @@ ruff = ">=0.12.7,<0.13"
 python = "3.12.*"
 
 [environments]
-area = []
+area = ["area"]
 
 [pypi-dependencies]
 healpix-geo = ">=0.0.5, <0.0.6"
+
+[feature.area.dependencies]
+evcxr = "*"
+pandas = "*"
+matplotlib = "*"
+seaborn = "*"
